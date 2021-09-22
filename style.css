@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-level{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-level > .header-image > img{
+    height: 40px;
+    width: 150px;
+    margin-left: 50px;
+}
+.header-level > .header-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-level > .header-link > .nav-link > a{
+    margin-right:30px ;
+    text-decoration: none;
+    color: gray;
+}
+.hero{
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./sweeter/mobilehome-min.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./sweeter/mobilehome-min.png);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero >.hero-info{
+
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero-info > h1{
+    font-family: "gotham", sans-serif;
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.hero-info > p{
+    font-family: sans-serif;
+    font-size: 1.5em;
+    color: #FFF8DC;
+    padding-bottom: 10px;
+}
+.hero-input{
+    margin-top: 40px;
+    width: 100%;
+   
+}
+.hero-input > input[type="search"]{
+ height: 100%;
+ width: 100%;
+border: none;
+padding: 20px 70px;
+border-radius: 10px;
+font-size: 2rem;
+/* width: 1100px; */
+background-color: #d0d0d0;
+color: gray;
+transition: background 0.55s ease;
+} 
+
+.hero-input > input[type="search"]:hover{
+    background: #fff;
+    } 
+
+    .flex-items{
+        display: flex;
+        justify-content: space-between;
+        
+      margin-top: 50px;
+      margin-bottom: 50px;
+      display: flex;
+      max-width: 100%;
+    }
+    .flex-items-2{
+        width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .row{
+        width: 1000px;   
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    } 
+    .row-container{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        border-radius: 10px;
+        height: 420px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .row-img-1{
+        background: linear-gradient(rgba(0, 0, 0, 0.), rgba(0, 0, 0, 0.1)), url(./sweeter/woman-on-phone.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(./sweeter/woman-on-phone.jpg);
+        background-position: cover;
+       background-size: cover;
+    }
+
+    .row-img-2{
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.)), url(./sweeter/woman-kneading-dough.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(./sweeter/woman-kneading-dough.jpg);
+        
+    }
+    .row-img-3{
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.)), url(./sweeter/doughnuts.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(./sweeter/doughnuts.jpg);
+    }
+  
+   .text-center{
+       font-family: "Helvetica", sans-serif ;
+        font-size: 2.5rem;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .row > p{
+        text-align: center;
+        font-size: 1.2em;
+        line-height: 1.5;
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+    .bottom-container{
+        height: 400px;
+        width: 100%;
+        margin-top: 120px;
+        background-color: #f57300;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+    .bottom-container > .bottom-image > img{
+        height: 100%;
+        width: 400px;
+        /* margin-right: 250px; */
+        position: relative;
+        bottom: 39px;
+        overflow: visible;
+     }
+
+     .bottom-container > .bottom-text{
+         width: 500px;
+     }
+    .bottom-container > .bottom-text h2{
+        color:#fff;
+        text-align: center;
+        font-size: 2em;
+        padding-bottom: 10px;
+    } 
+    .bottom-container > .bottom-text > p{
+        color:#fff;
+        text-align: center;
+        padding-top: 5px;
+        line-height: 1.5;
+        font-size: 1.5em;
+    }
+    .down-container{
+       width: 100%;
+       background:  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(./sweeter/courier-image.jpg);
+       
+       background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(./sweeter/courier-image.jpg); 
+       height: 500px;
+       background-repeat:no-repeat ;
+       background-position: cover;
+       background-size: cover;
+    }
+    .down-container > .down{
+        padding: 100px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 300px;
+        
+    }
+    .down-container > .down > .down-container-text > h4{
+        color: white;
+        font-size: 3rem;
+        font-family: Courier, monospace;
+        font-weight:400px;
+        margin-bottom: 10px;
+        
+
+    }
+    .down-container > .down > .down-container-text > p{
+        width: 400px;
+        letter-spacing: 1px;
+        color: white;
+        font-family: cursive;
+    }
+    .down-container > .down > .container-button{
+        display: flex;
+        margin-bottom: 80px;
+        margin-top: 5px;
+    }
+    .down-container > .down > .container-button > .down-container-button1 > button{
+        outline: none;
+        padding: 8px;
+        border-radius:5px;
+        border: none;
+        background-color: orange;
+        color: white;
+        transition: 0.3s;
+    }
+    .down-container > .down > .container-button > .down-container-button1 > button:hover{
+        background-color: orangered;
+    }
+    .down-container > .down > .container-button > .down-container-button2 > button{
+        outline: none;
+        padding: 8px;
+        border-radius:5px;
+        border: none;
+        background-color:lightslategray;
+        margin-left: 10px;
+        color: white;
+        transition: 0.3s;
+
+
+    }
+    .down-container > .down > .container-button > .down-container-button2 > button:hover{
+    
+
